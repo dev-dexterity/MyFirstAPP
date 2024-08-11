@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Globalization;
 
 class Program
 {
-    public static void main(string[] args)
+    public static void Main(string[] args)
     {
         Console.WriteLine("Hello World!");
     }
