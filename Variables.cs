@@ -22,13 +22,13 @@ namespace MyFirstAPP
 
             Console.WriteLine("Your username is: " + username + "\n" + "Your password is: " + password);*/
 
-            float vat = 18f;
+            float valueAddedTax = 18f;
             float productA = 3.99f;
             float productB = 11.99f;
             float productC = 5.75f;
 
             float summed = productA + productB + productC;
-            float totalTax = (summed / 100) * vat;
+            float totalTax = (summed / 100) * valueAddedTax;
 
             summed += totalTax;
             
