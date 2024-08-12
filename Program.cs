@@ -9,7 +9,6 @@ namespace MyFirstAPP
         {
             MyFirstAPP.Variables.Var();
             Console.WriteLine("Thank You!");
-
         }
     }
 }
