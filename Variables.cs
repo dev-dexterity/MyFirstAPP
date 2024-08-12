@@ -33,7 +33,7 @@ namespace MyFirstAPP
             summed += totalTax;
             
             Console.WriteLine("The total cost with the tax: " + summed);
-        }
+       }
 
     } 
 }
