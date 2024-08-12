@@ -1,12 +1,21 @@
-﻿using System;
-
-class Program
+﻿using System.Data;
+namespace MyFirstAPP
 {
-    public static void Main(string[] args)
+    public class Program
     {
-        int num = 2;
-        float price = 3.99f;
+        public static void Main(string[] args)
+        {
+            /*int a = 1;
+            int b = 2;
 
-        Console.WriteLine(price * num);
+            a = 5;
+
+            int c = a + b;
+            Console.WriteLine("The Addition gives = " + c);
+
+            Console.WriteLine("Thank You!");*/
+            MyFirstAPP.Variables.Var();
+
+        }
     }
-}   
+}
