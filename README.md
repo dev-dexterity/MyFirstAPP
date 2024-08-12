@@ -17,5 +17,5 @@ In this repo I will be Learning :
   -Collections  
   -Debugging Applications  
 
-Don't Make any changes to it but Feel Free to Tell your reviews on this Repo.
+Don't Make any changes to this repo but Feel Free to Tell your reviews on this Repo.
 
