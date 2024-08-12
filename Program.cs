@@ -11,7 +11,9 @@ namespace MyFirstAPP
         public static void Main(string[] args)
         {
             //MyFirstAPP.Variables.Var();
-            MyFirstAPP.SwapVariables.Swapping();
+            //MyFirstAPP.SwapVariables.Swapping();
+            MyFirstAPP.Methods.Function();
+            Console.WriteLine();
             Console.WriteLine("Thank You!");
         }
     }
