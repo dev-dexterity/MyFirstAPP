@@ -10,7 +10,8 @@ namespace MyFirstAPP
         /// </summary>
         public static void Main(string[] args)
         {
-            MyFirstAPP.Variables.Var();
+            //MyFirstAPP.Variables.Var();
+            MyFirstAPP.SwapVariables.Swapping();
             Console.WriteLine("Thank You!");
         }
     }
