@@ -12,7 +12,11 @@ namespace MyFirstAPP
         {
             //MyFirstAPP.Variables.Var();
             //MyFirstAPP.SwapVariables.Swapping();
-            MyFirstAPP.Methods.Function();
+            Console.WriteLine(MyFirstAPP.Methods.Add(20, 10));
+            Console.WriteLine(MyFirstAPP.Methods.Subtract(20, 10));
+            Console.WriteLine(MyFirstAPP.Methods.Multiply(20, 10));
+            Console.WriteLine(MyFirstAPP.Methods.Divide(20, 10));
+
             Console.WriteLine();
             Console.WriteLine("Thank You!");
         }
