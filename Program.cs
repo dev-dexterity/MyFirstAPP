@@ -31,8 +31,10 @@ namespace MyFirstAPP
              * int num2 = int.Parse(num2Input);//parsing  is effective if you have specific input
              */
 
-            //Catching Errors
-            MyFirstAPP.TryCatchErrors.ErrorHandling();
+            /*//Catching Errors
+            MyFirstAPP.TryCatchErrors.ErrorHandling();*/
+
+            MyFirstAPP.ErrorHandlingExercise.ErrorHandling();
 
             Console.WriteLine();
             Console.WriteLine("Thank You!");
