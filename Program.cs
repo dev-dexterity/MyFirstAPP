@@ -33,9 +33,13 @@ namespace MyFirstAPP
              **Catching Errors
              * MyFirstAPP.TryCatchErrors.ErrorHandling();
              * MyFirstAPP.ErrorHandlingExercise.ErrorHandling();
+             * 
+             **Operators
+             *MyFirstAPP.Operators.Operations();
              */
+            MyFirstAPP.IfElse.Conditions();
 
-            MyFirstAPP.Operators.Operations();
+
             Console.WriteLine();
             Console.WriteLine("Thank You!");
         }
