@@ -35,6 +35,7 @@ namespace MyFirstAPP
              * MyFirstAPP.ErrorHandlingExercise.ErrorHandling();
              */
 
+            MyFirstAPP.Operators.Operations();
             Console.WriteLine();
             Console.WriteLine("Thank You!");
         }
