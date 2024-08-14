@@ -1,12 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MyFirstAPP
+﻿namespace MyFirstAPP
 {
-    internal class TryParse
+    public class TryParse
     {
+        public static void ConversionToInt()
+        {
+            string numberAsString = "128";
+            int parsedValue;
+
+            bool success = int.TryParse(numberAsString, out parsedValue);
+
+            if (success)
+            {
+                Console.WriteLine("The Parsing was Successful and the parsed value is {0}", parsedValue);
+            }
+            else
+            {
+                Console.WriteLine("Parsing Failed");
+            }
+            
+        }
     }
 }

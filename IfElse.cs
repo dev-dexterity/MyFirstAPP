@@ -9,29 +9,28 @@
             temperature = Console.ReadLine();
             int temp = 0;
 
-            try
+            if(int.TryParse(temperature, out temp))
             {
-                temp = int.Parse(temperature);
+                Console.WriteLine("The temperature you entered is {0}", temp);
             }
-            catch (Exception)
+            else
             {
-                Console.WriteLine("The Following input is wrong.");
+                temp = 0;
+                Console.WriteLine("Value entered is Wrong.The temprature is set to {0}.", temp);
                 return;
             }
 
-            
+
             //Conditional statements (if statements)
-            if(temp < 10)
+            if (temp < 10)
             {
                 Console.WriteLine("Take the coat");
             }
-
-            if(temp == 10)
+            else if (temp == 10)
             {
                 Console.WriteLine("Pants and pull over should be fine");
             }
-
-            if(temp > 10)
+            else
             {
                 Console.WriteLine("Shorts are enough today");
             }
