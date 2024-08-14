@@ -34,6 +34,14 @@
             {
                 Console.WriteLine("Shorts are enough today");
             }
+
+            string stateOfMatter;
+
+            stateOfMatter = temp < 0 ? "Solid" : "liquid";
+
+            stateOfMatter = temp > 100 ? "Gas" : temp < 0 ? "Solid" : " Liqiuid";
+
+            Console.WriteLine("The state of matter is {0}", stateOfMatter);
         }
     }
 }

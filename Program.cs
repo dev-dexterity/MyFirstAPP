@@ -41,12 +41,14 @@ namespace MyFirstAPP
              * MyFirstAPP.IfElse.Conditions();
              * MyFirstAPP.NestedifStatements.ConditionNested();
              * MyFirstAPP.SwitchCase.SwitchCaseStatement();
+             * MyFirstAPP.SwitchCaseExe.SwitchCaseExercise();
              *
              **TryParseMethod
              * MyFirstAPP.TryParse.ConversionToInt();
              */
 
-            MyFirstAPP.SwitchCaseExe.SwitchCaseExercise();
+            MyFirstAPP.IfElse.Conditions();
+
 
             Console.WriteLine();
             Console.WriteLine("Thank You!");
