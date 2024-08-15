@@ -45,10 +45,11 @@ namespace MyFirstAPP
              *
              **TryParseMethod
              * MyFirstAPP.TryParse.ConversionToInt();
+             * 
+             **Loops
+             * MyFirstAPP.Forloop.loops();
              */
-
-            MyFirstAPP.IfElse.Conditions();
-
+            MyFirstAPP.DoWhileLoop.loops();
 
             Console.WriteLine();
             Console.WriteLine("Thank You!");
