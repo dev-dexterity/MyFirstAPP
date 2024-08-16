@@ -80,16 +80,23 @@ namespace MyFirstAPP
              * tejas.IntroduceMyself();
              * Human khushi = new Human("Khushi");
              * khushi.IntroduceMyself();
+             * 
+             **Encapsulation concept Properties
+             * Box box = new Box(3,4,5);
+             * Console.WriteLine("Box volume is: {0} ",box.Volume);
+             * Console.WriteLine("Box Width is : {0} ",box.Width);
+             * box.DisplayInfo();
              */
 
-            Box box = new Box(3,4,5);
-            Console.WriteLine("Box volume is: {0} ",box.Volume);
-            Console.WriteLine("Box Width is : {0} ",box.Width);
-            box.DisplayInfo();
-
+            Members omkar = new Members("Omkar", "Software Engineer", 50000);
+            omkar.age = 22;
+            omkar.Introducing(false);
+            omkar.Introducing(true); 
 
             Console.WriteLine();
             Console.WriteLine("Thank You!");
+
+
         }
     }
 }
