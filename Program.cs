@@ -47,11 +47,29 @@ namespace MyFirstAPP
              * MyFirstAPP.TryParse.ConversionToInt();
              * 
              **Loops
-             * 
+             * MyFirstAPP.Forloop.loops();
              * MyFirstAPP.DoWhileLoop.loops();
              * MyFirstAPP.WhileLoop.loops();
              */
-            MyFirstAPP.Forloop.loops();
+
+            //creating object of my class
+            //also called instance of Human
+            Human omkar = new Human();
+
+            Console.Write("Enter your FirstName: ");
+            omkar.firstName = Console.ReadLine();
+            Console.Write("Enter your LastName: ");
+            omkar.lastName = Console.ReadLine();
+            omkar.IntroduceMyself();
+
+            Human anagha = new Human();
+            Console.Write("Enter your FirstName: ");
+            anagha.firstName = Console.ReadLine();
+            Console.Write("Enter your LastName: ");
+            anagha.lastName = Console.ReadLine();
+            anagha.IntroduceMyself();
+
+
 
             Console.WriteLine();
             Console.WriteLine("Thank You!");
