@@ -47,10 +47,11 @@ namespace MyFirstAPP
              * MyFirstAPP.TryParse.ConversionToInt();
              * 
              **Loops
-             * MyFirstAPP.Forloop.loops();
+             * 
              * MyFirstAPP.DoWhileLoop.loops();
+             * MyFirstAPP.WhileLoop.loops();
              */
-            MyFirstAPP.WhileLoop.loops();
+            MyFirstAPP.Forloop.loops();
 
             Console.WriteLine();
             Console.WriteLine("Thank You!");

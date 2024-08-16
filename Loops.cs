@@ -4,10 +4,15 @@
     {
         public static void loops()
         {
-            for(int i = 0; i <= 20; i++)
+            for(int i = 0; i < 100; i++)
             {
-                if(i % 2 == 1)
-                    Console.WriteLine("The Odd number is {0} ",i);
+                
+                if(i % 2 == 0)
+                {
+                    Console.WriteLine("Skipped Because it is even! {0}",i);
+                    continue;
+                }
+                Console.WriteLine(i);
             }
         }
     }
