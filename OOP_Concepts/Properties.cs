@@ -28,7 +28,6 @@ namespace MyFirstAPP
             }
         }
 
-
         //Second method to use Properties
         public int Height
         {
@@ -60,13 +59,10 @@ namespace MyFirstAPP
             return this.length;
         }
 
-
         public void DisplayInfo()
         {
             Console.WriteLine("length is {0} and height is {1} and width is {2} so the volume is {3} ", 
                 length, height, Width, volume = length * height * Width);
         }
-
-
     }
 }
