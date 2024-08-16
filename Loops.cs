@@ -28,5 +28,24 @@
             }while (lengthOfText < 20);
             Console.WriteLine("Hello! {0} ", wholeText);
         }
+
+    }
+
+    public class WhileLoop
+    {
+        public static void loops()
+        {
+            int counter = 0;
+            string enteredText = "";
+            while(enteredText.Equals(""))
+            {
+                Console.WriteLine("Please press enter to increase amount by one.");
+                enteredText = Console.ReadLine();
+                
+                counter++;
+                Console.WriteLine("Entered people are: {0}", counter);
+            }
+            Console.WriteLine("{0} people are entered the bus.Please press enter to close the program", counter);
+        }
     }
 }

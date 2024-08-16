@@ -48,8 +48,9 @@ namespace MyFirstAPP
              * 
              **Loops
              * MyFirstAPP.Forloop.loops();
+             * MyFirstAPP.DoWhileLoop.loops();
              */
-            MyFirstAPP.DoWhileLoop.loops();
+            MyFirstAPP.WhileLoop.loops();
 
             Console.WriteLine();
             Console.WriteLine("Thank You!");
