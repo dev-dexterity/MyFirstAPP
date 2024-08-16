@@ -67,22 +67,22 @@ namespace MyFirstAPP
              * Console.Write("Enter your LastName: ");
              * anagha.lastName = Console.ReadLine();
              * anagha.IntroduceMyself();
+             * 
+             * Human omkar = new Human("Omkar", "Gaikwad","Black",22);
+             * omkar.IntroduceMyself();
+             * 
+             * Human anagha = new Human("Anagha", "Sawatkar", "Blue");
+             * anagha.IntroduceMyself();
+             * 
+             * Human rahul = new Human("Rahul", "Gaikwad", 58);
+             * rahul.IntroduceMyself();
+             * Human tejas = new Human("Tejas", "Gaikwad");
+             * tejas.IntroduceMyself();
+             * Human khushi = new Human("Khushi");
+             * khushi.IntroduceMyself();
              */
 
-            Human omkar = new Human("Omkar", "Gaikwad","Black",22);
-            omkar.IntroduceMyself();
 
-            Human anagha = new Human("Anagha", "Sawatkar", "Blue");
-            anagha.IntroduceMyself();
-
-            Human rahul = new Human("Rahul", "Gaikwad", 58);
-            rahul.IntroduceMyself();
-
-            Human tejas = new Human("Tejas", "Gaikwad");
-            tejas.IntroduceMyself();
-
-            Human khushi = new Human("Khushi");
-            khushi.IntroduceMyself();
 
             Console.WriteLine();
             Console.WriteLine("Thank You!");
