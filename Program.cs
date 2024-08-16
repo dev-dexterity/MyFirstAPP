@@ -50,26 +50,39 @@ namespace MyFirstAPP
              * MyFirstAPP.Forloop.loops();
              * MyFirstAPP.DoWhileLoop.loops();
              * MyFirstAPP.WhileLoop.loops();
+             * 
+             **Classes And Objects
+             * creating object of my class
+             * also called instance of Human
+             * Human omkar = new Human();
+             * Console.Write("Enter your FirstName: ");
+             * omkar.firstName = Console.ReadLine();
+             * Console.Write("Enter your LastName: ");
+             * omkar.lastName = Console.ReadLine();
+             * omkar.IntroduceMyself();
+             * 
+             * Human anagha = new Human();
+             * Console.Write("Enter your FirstName: ");
+             * anagha.firstName = Console.ReadLine();
+             * Console.Write("Enter your LastName: ");
+             * anagha.lastName = Console.ReadLine();
+             * anagha.IntroduceMyself();
              */
 
-            //creating object of my class
-            //also called instance of Human
-            Human omkar = new Human();
-
-            Console.Write("Enter your FirstName: ");
-            omkar.firstName = Console.ReadLine();
-            Console.Write("Enter your LastName: ");
-            omkar.lastName = Console.ReadLine();
+            Human omkar = new Human("Omkar", "Gaikwad","Black",22);
             omkar.IntroduceMyself();
 
-            Human anagha = new Human();
-            Console.Write("Enter your FirstName: ");
-            anagha.firstName = Console.ReadLine();
-            Console.Write("Enter your LastName: ");
-            anagha.lastName = Console.ReadLine();
+            Human anagha = new Human("Anagha", "Sawatkar", "Blue");
             anagha.IntroduceMyself();
 
+            Human rahul = new Human("Rahul", "Gaikwad", 58);
+            rahul.IntroduceMyself();
 
+            Human tejas = new Human("Tejas", "Gaikwad");
+            tejas.IntroduceMyself();
+
+            Human khushi = new Human("Khushi");
+            khushi.IntroduceMyself();
 
             Console.WriteLine();
             Console.WriteLine("Thank You!");
