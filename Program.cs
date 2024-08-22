@@ -86,12 +86,15 @@ namespace MyFirstAPP
              * Console.WriteLine("Box volume is: {0} ",box.Volume);
              * Console.WriteLine("Box Width is : {0} ",box.Width);
              * box.DisplayInfo();
+             * 
+             **Members
+             * Members omkar = new Members("Omkar", "Software Engineer", 50000);
+             * omkar.age = 22;
+             * omkar.Introducing(false);
+             * omkar.Introducing(true); 
+             * 
              */
-
-            Members omkar = new Members("Omkar", "Software Engineer", 50000);
-            omkar.age = 22;
-            omkar.Introducing(false);
-            omkar.Introducing(true); 
+            MyFirstAPP.Arrays.ArrayLecture();
 
             Console.WriteLine();
             Console.WriteLine("Thank You!");
