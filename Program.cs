@@ -52,6 +52,7 @@ namespace MyFirstAPP
              * MyFirstAPP.WhileLoop.loops();
              * MyFirstAPP.ForeachLoop.loops();
              * MyFirstAPP.LoopsExercise.Exercise();
+             * MyFirstAPP.NestedLoops.Loops();
              * 
              **Classes And Objects
              * creating object of my class
@@ -97,9 +98,10 @@ namespace MyFirstAPP
              * 
              **Arrays
              * MyFirstAPP.Arrays.ArrayLecture();
+             * MyFirstAPP.ArraysTwoDimensional.Arrays();
              */
 
-            MyFirstAPP.ArraysTwoDimensional.Arrays();
+            MyFirstAPP.JaggedArray.JaggedArrays();
 
 
             Console.WriteLine();
