@@ -50,6 +50,8 @@ namespace MyFirstAPP
              * MyFirstAPP.Forloop.loops();
              * MyFirstAPP.DoWhileLoop.loops();
              * MyFirstAPP.WhileLoop.loops();
+             * MyFirstAPP.ForeachLoop.loops();
+             * MyFirstAPP.LoopsExercise.Exercise();
              * 
              **Classes And Objects
              * creating object of my class
@@ -93,8 +95,12 @@ namespace MyFirstAPP
              * omkar.Introducing(false);
              * omkar.Introducing(true); 
              * 
+             **Arrays
+             * MyFirstAPP.Arrays.ArrayLecture();
              */
-            MyFirstAPP.Arrays.ArrayLecture();
+
+            MyFirstAPP.ArraysTwoDimensional.Arrays();
+
 
             Console.WriteLine();
             Console.WriteLine("Thank You!");

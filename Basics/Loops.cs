@@ -53,4 +53,24 @@
             Console.WriteLine("{0} people are entered the bus.Please press enter to close the program", counter);
         }
     }
+
+    public class ForeachLoop
+    {
+        public static void loops()
+        {
+            int[] nums = new int[10];
+
+            for(int i = 0;i < nums.Length; i++)
+            {
+                nums[i] = i + 1;
+                Console.WriteLine("Element {0} = {1}", i, nums[i]);
+            }
+            int counter = 0;
+            foreach(int k in nums)
+            {
+                Console.WriteLine("Element {0} = {1}", counter, k);
+                counter++;
+            }
+        }
+    }
 }
