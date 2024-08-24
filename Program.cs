@@ -99,9 +99,10 @@ namespace MyFirstAPP
              **Arrays
              * MyFirstAPP.Arrays.ArrayLecture();
              * MyFirstAPP.ArraysTwoDimensional.Arrays();
+             * MyFirstAPP.JaggedArray.JaggedArrays();
              */
 
-            MyFirstAPP.JaggedArray.JaggedArrays();
+            MyFirstAPP.ArrayList.ArrayLists();
 
 
             Console.WriteLine();
